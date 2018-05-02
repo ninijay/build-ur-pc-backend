@@ -8,10 +8,6 @@ var PieceSchema = new Schema({
     type: String,
     required: 'Kindly enter the name of the hardware'
   },
-  id: {
-    type: Number,
-    default: 0
-  },
   price: {
     type: Number,
     default: 0

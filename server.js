@@ -4,6 +4,9 @@ var express = require('express'),
   mongoose = require('mongoose'),
   Piece = require('./api/models/PCModel'), //created model loading here
   bodyParser = require('body-parser');
+  var cors = require('cors')
+
+app.use(cors())
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
