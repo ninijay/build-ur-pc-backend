@@ -1,0 +1,19 @@
+{
+    "data":[
+        {
+            "name": "SomeBoard",
+            "id": "1",
+            "price": 1
+        },
+        {
+            "name": "SomeBoard2",
+            "id": "2",
+            "price": 2
+        },
+        {
+            "name": "SomeBoard3",
+            "id": "3",
+            "price": 3
+        }
+    ]
+}

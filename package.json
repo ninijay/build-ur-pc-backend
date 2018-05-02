@@ -1,0 +1,30 @@
+{
+  "name": "build-ur-pc-backend",
+  "version": "1.0.0",
+  "description": "Backend for my website to build pcs",
+  "main": "main.js",
+  "scripts": {
+    "test": "",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninijay/build-ur-pc-backend.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Zanidd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninijay/build-ur-pc-backend/issues"
+  },
+  "homepage": "https://github.com/ninijay/build-ur-pc-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17"
+  }
+}
